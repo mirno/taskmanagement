@@ -1,0 +1,26 @@
+rules:
+  header:
+    maxLength: 72
+  type:
+    allowed:
+      - build
+      - chore
+      - ci
+      - docs
+      - feat
+      - fix
+      - perf
+      - refactor
+      - revert
+      - style
+      - test
+  scope:
+    allowed:
+      - api
+      - config
+      - deps
+      - docs
+      - test
+      - ui
+  subject:
+    case: sentence
